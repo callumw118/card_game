@@ -9,4 +9,16 @@ public class Game {
         this.player2 = player2;
         this.dealer = dealer;
     }
+
+    public Player getPlayer1() {
+        return player1;
+    }
+
+    public Player getPlayer2() {
+        return player2;
+    }
+
+    public Dealer getDealer() {
+        return dealer;
+    }
 }
