@@ -19,4 +19,10 @@ public class DealerTest {
     public void dealerHasDeck(){
         assertEquals(deck, dealer.getDeck());
     }
+
+    @Test
+    public void dealerDeckIsPopulatedWith52Cards(){
+        int deckNum = dealer.getDeck().getNumberOfCards();
+        assertEquals(52, deckNum);
+    }
 }
